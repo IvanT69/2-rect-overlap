@@ -4,7 +4,7 @@ Rect B: (x3, y3) to (x4, y4)
   
 Then, checks whether the rectangle overlaps or not.  
 if x1 >= x4 or x3 >= x2:  
-        return False    
+          return False    
 if y1 >= y4 or y3 >= y2:  
         return False  
     return True
